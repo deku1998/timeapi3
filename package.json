@@ -1,0 +1,21 @@
+{
+  "name": "time-api",
+  "version": "1.0.0",
+  "description": "api to get top stories",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "jyotiraditya",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "jsdom": "^16.4.0",
+    "request": "^2.88.2"
+  }
+}
